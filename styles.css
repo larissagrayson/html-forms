@@ -1,0 +1,217 @@
+/* Simple CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECEEF1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #505050;
+}
+
+
+
+/* Styles for the top navigation bar */
+
+.header-nav { /* main container */
+  padding: 5px 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 0 0;
+  height: 40px;
+}
+
+.header-links { /* menu container */
+  list-style-type: none;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgot-account {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 15px;
+}
+.signin-button {
+  font-size: 14px;
+  text-align: center;
+
+
+  color: #FFFFFF;
+  background-color: #0077C5;
+
+  border: 1px solid #3E5463;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 100px;
+  padding: 5px 0;
+  margin-right: 10px;
+
+}
+
+/* Styles for the links section above form */
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.partner-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+/* Styles for the main form */
+.form-section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper {
+    height: 600px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-header {
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.form-header h1 {
+  font-weight: normal;
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+.form-header p {
+  font-size: 14px;
+}
+
+.form-header a {
+  text-decoration: none;
+}
+
+
+form {
+  padding: 25px;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-row:last-of-type{
+  margin-bottom: 0;
+}
+
+.form-row label {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-row input[type="email"],
+.form-row input[type="tel"],
+.form-row input[type="password"] {
+  border: 1px solid #D0D3D6;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.form-row button {
+  font-size: 16px;
+
+  color: #FFFFFF;
+  background-color: #0077C5;
+
+  border: 1px solid #3E5463;
+  border-radius: 5px;
+  cursor: pointer;
+
+  height: 40px;
+
+}
+
+.form-footer {
+  align-self: flex-end;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.privacy-statement,
+.recaptcha {
+  text-align: center;
+  font-size: 12px;
+}
+
+.privacy-statement {
+  margin-bottom: 20px;
+}
+
+.recaptcha {
+   background: #ECEEF1;
+   height: 50px;
+   padding-top: 15px;
+}
+
+
+.form-footer a {
+  text-decoration: none;
+}
+
+/* Styles for the main page footer */
+
+.page-footer-nav { /* main flex container */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-footer-links { /* Flex container for links */
+  list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #505050;
+  font-size: 12px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.page-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
