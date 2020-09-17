@@ -7,9 +7,6 @@
 
 ***
 
-<<<<<<< HEAD
 The purpose of this project was to recreate the sign-up form for [mint.com](https://wwws.mint.com/login.event?task=S). The page is marked up using HTML 5, specifically the newer semantic elements (&lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt;, etc).  It is styled with CSS3, using the typical styling like colors, padding, margins, and typography.  The page uses Flexbox for its layout.
 
 The page can be viewed [here](https://larissagrayson.github.io/odin-forms/).
-=======
->>>>>>> 5c64538092b786e00d7af6e82f5bcada0c76ed47
